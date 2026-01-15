@@ -7,7 +7,7 @@ An Android application built with Jetpack Compose to track flight status in real
 *   **Real-time Flight Tracking**: View live status of flights (Active, Scheduled, Landed, Cancelled).
 *   **Search Functionality**: Search by Flight Number (e.g., "AA100"), Airline Name, or IATA code.
 *   **Detailed Flight Information**:
-    *    Departure & Arrival times (Scheduled, Estimated, Actual).
+    *   Departure & Arrival times (Scheduled, Estimated, Actual).
     *   Terminal and Gate information.
     *   Delay tracking.
     *   Aircraft and Airline details.

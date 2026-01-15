@@ -12,7 +12,6 @@ interface FlightApiService {
         @Query("limit") limit: Int = 100
     ): FlightResponse
 
-    // Add search parameters as needed
     @GET("flights")
     suspend fun searchFlights(
         @Query("access_key") apiKey: String,

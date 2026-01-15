@@ -31,7 +31,6 @@ class FlightRepositoryImpl @Inject constructor(
         
         try {
             if (fetchFromRemote) {
-                // In a production app, the key should be in BuildConfig
                 val response = api.getFlights("API-KEY") 
                 val flightEntities = response.data.map { it.toFlightEntity() }
                 

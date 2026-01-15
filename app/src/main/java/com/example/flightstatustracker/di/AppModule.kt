@@ -30,7 +30,7 @@ object AppModule {
             .build()
 
         return Retrofit.Builder()
-            .baseUrl("http://api.aviationstack.com/v1/") // Note: HTTP not HTTPS for free plan usually, but assuming HTTPS or cleartext enabled
+            .baseUrl("http://api.aviationstack.com/v1/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build()

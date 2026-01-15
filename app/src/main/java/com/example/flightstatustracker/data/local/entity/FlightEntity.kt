@@ -11,7 +11,6 @@ data class FlightEntity(
     val status: String,
     
     // Departure
-    // Departure
     val departureAirport: String?,
     val departureTimezone: String?,
     val departureIata: String?,
